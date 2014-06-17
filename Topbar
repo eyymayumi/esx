@@ -1,0 +1,61 @@
+#topbar {
+    width: 100%;
+    height: auto;
+    padding: 0px 0 5px 0;
+    margin: 20px auto 40px 0px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    font-size: 45px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+   
+.navibar {
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    top: 10px;
+    background: #BDBDBD;
+    margin: 0px auto 0px auto;
+    padding:  15px;
+    position:fixed;
+  
+    
+   
+}  
+
+.navigate{
+    width: 100%;
+    height: auto;
+    background: #BDBDBD;
+    text-align: center;
+    }
+ 
+.navigate a {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 7px;
+    margin: 0px 13px 0px 0px;
+    position: relative;
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color:#fff;
+    letter-spacing: 1px;
+    text-transform: normal;
+    transition: .3s ease-out;
+}
+ 
+ 
+.navigate a:hover   {
+    opacity: .7;
+    background:{color:Topbar HoverColor};
+    padding: 7px 20px 7px;
+    
+ 
+    }
